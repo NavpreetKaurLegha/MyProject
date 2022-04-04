@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM" parallel="tests">
+	<test name="TestNG" allow-return-values="true">
+		<classes>
+			<class name="testlayer.LoginTest" />
+			<!-- <class name="selenium1.TestSelenium" /> -->
+			
+		</classes>
+	</test>
+	<!-- <test name="Softassert" allow-return-values="true">
+		<classes>
+			<class name="selenium1.Anno" />
+		</classes>
+	</test> -->
+<!-- <test name="Softassert" allow-return-values="true">
+		<classes>
+			<class name="seleniumfirst.Softassert" />
+		</classes>
+	</test> -->
+
+</suite>
